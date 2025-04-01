@@ -9,7 +9,7 @@ import WeatherSection from '@/components/WeatherSection';
 import CryptoSection from '@/components/CryptoSection';
 import NewsSection from '@/components/NewsSection';
 import { priceUpdateService } from '@/lib/websocket';
-import { AppDispatch } from '@/store';
+import { AppDispatch } from '@/store/store';
 
 export default function Dashboard() {
   const dispatch = useDispatch<AppDispatch>();
